@@ -1,7 +1,8 @@
 //copyright current year and last modified
 
-const currentYear = new Date().getFullYear();
-document.querySelector("#year").textContent = `${currentYear}`;
+var currentYear = new Date().getFullYear();
 
-const madeChanges = document.lastModified;
-document.getElementById("lastModified").innerHTML = `Last Modified: ${madeChanges}`;
+document.getElementById("#year").innerHTMLcurrentYear;
+
+var madeChanges = document.lastModified;
+document.getElementById("lastModified").innerHTML = 'Last Modified: ' +lastModified;
