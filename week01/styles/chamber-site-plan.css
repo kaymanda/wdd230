@@ -1,0 +1,63 @@
+
+/*first-color: #364156;
+  second-color: #2A6543;
+  third-color: #553111;
+  fourth-color: #C9B1BD;
+  fifth-color: #C8C8C8;
+  heading-font: Courgette;
+  body-font: Bitter;
+
+  Wireframe: https://wireframe.cc/UvV8i5 (larger)
+            "https://wireframe.cc/g3UStb"(mobile)            
+*/
+
+body {
+    font-family: "Bitter", serif;
+    margin: 0;
+    padding: 0;
+    color: #C9B1BD;
+    
+   
+}
+.name {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    font-family: "Bitter", serif;
+    background-color: #364156;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    margin-top: 20px;
+}
+
+section {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    font-family: "Courgette", cursive;
+    background-color: #2A6543;
+    color: #C8C8C8;
+}
+footer{
+    clear: both;
+    background-color: #364156;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*.purpose {
+    font-family: "Courgette", cursive;
+    background-color: #364156;
+}
+
+.scenarios {
+    font-family: "Courgette", cursive;
+    background-color: #2A6543;
+}*/
