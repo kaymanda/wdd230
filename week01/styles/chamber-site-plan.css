@@ -15,7 +15,7 @@ body {
     font-family: "Bitter", serif;
     margin: 0;
     padding: 0;
-    color: #C9B1BD;
+    color: #063b28;
     
    
 }
@@ -27,7 +27,7 @@ body {
 
 header {
     font-family: "Bitter", serif;
-    background-color: #364156;
+    background-color: #c6d3ed;
     padding: 20px;
     text-align: center;
 }
@@ -41,12 +41,13 @@ section {
     width: 70%;
     padding: 20px;
     font-family: "Courgette", cursive;
-    background-color: #2A6543;
-    color: #C8C8C8;
+    background-color: #e7f1eb;
+    color: #663683;
 }
 footer{
     clear: both;
-    background-color: #364156;
+    background-color: #c6d3ed;
+    color: #063b28;
     padding: 20px;
     text-align: center;
 
