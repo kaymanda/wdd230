@@ -10,12 +10,12 @@ body {
 }
 
 header {
-    background-color: #a84949;
+    background-color: #cea0a0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 1px rgb(132, 76, 76);
+    border: 1px rgb(188, 89, 89);
     
 }
 
@@ -24,14 +24,14 @@ header, main {
 }
 
 header h1 {
-    color: rgb(50, 64, 52);
+    color: #042f0a;
     font-size: 2rem;
 }
 
 #pic-image {
     border-radius: 100%;
     width: 7rem;
-    border: 5px solid #f2f3f1;
+    border: 5px solid #042f0a;
     
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 main h1 {
-    color:rgb(50, 64, 52);
+    color:#042f0a;
     font-size: 3rem;
     padding: 1rem;
 }
@@ -114,11 +114,11 @@ footer {
     align-items: center;
     flex-direction: column;
     background-color: #a84949 ;
-    color: rgb(50, 64, 52);
+    color: #f2f3f1;
     font-size: 1.5rem;
     padding: 20px;
 }
 
 #currentYear, #lastModified {
-    color:rgb(50, 64, 52);
+    color:rgb#f2f3f1;
 }
