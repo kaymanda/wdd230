@@ -7,6 +7,7 @@
 
 body {
     font-family: "Josefin Slab", serif;
+    font-size: 2rem;
 }
 
 header {
@@ -15,8 +16,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 1px rgb(188, 89, 89);
-    
+    border: 1px rgb(188, 89, 89);   
 }
 
 header, main {
@@ -40,14 +40,8 @@ nav {
     color: rgb(58, 5, 23);
     padding: 10px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-nav li {
-    display: block;
     text-align: center;
-    font-size: 1.5rem;
+    flex-direction: column;
 }
 
 nav a {
@@ -63,16 +57,19 @@ nav a:hover {
     color: rgb(58, 5, 23);
 }
 
-.active {
-    color: aliceblue;
-}
-
-main {
+/*main {
     background-color: #f2f3f1;
     padding: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+}*/
+main {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 1rem;
 }
 
 main h1 {
@@ -87,14 +84,11 @@ main h2 {
     padding: 0.5rem;
 }
 
-.card li {
-    list-style: none;
-    padding: 1rem;
-    display: block;
-    text-align: center;
-    font-size: 1.5rem;
-    color: rgb(50, 64, 52);
+.card {
+    border: 2px rgb(50, 64, 52);
 }
+
+
 .card a:hover {
     background-color: #a84949;
     color: rgb(58, 5, 23); 
@@ -106,6 +100,15 @@ main h2 {
     background-color: #f2f3f1;
     padding: 2rem;
     margin-top: 0;
+}
+
+.card li {
+    list-style: none;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(50, 64, 52);
 }
 
 footer {

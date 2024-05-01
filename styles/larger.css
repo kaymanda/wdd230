@@ -1,41 +1,27 @@
 @media screen and (min-width: 600px) {
-    header h1 {
-        padding: 5rem;
-        font-size: 3rem;
-    }
-
-    header #pic-image {
-        border: 5px solid  #f2f3f1;
-    }
-    
-    nav {
-        align-items: center;
-    }
-
-    nav li {
-        display: inline-block;
-        text-align: center;
-    }
-
-    main h1 {
+    body {
         font-size: 2rem;
-        padding: 1rem;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        grid-template-columns: 0.8fr auto;
+    }
+
+    .activities {
+        grid-row: 2/3;
+    }
+
+    .info {
+        grid-row: 2/3;
     }
 
     main h2 {
-        font-size: 1.5rem;
-        padding: 0.5rem;
+        text-align: left;
+        font-size: 2rem;
     }
-
-    .card-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        grid-template-rows: 1fr 1fr;
-    }
-    
-    .card {
-        width: 400px;
-    }
-    
 }
