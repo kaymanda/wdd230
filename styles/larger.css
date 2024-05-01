@@ -9,7 +9,7 @@
     }
 
     main {
-        grid-template-columns: 0.8fr auto;
+        grid-template-columns: 1fr auto;
     }
 
     .activities {
