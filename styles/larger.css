@@ -8,6 +8,19 @@
         justify-content: space-between;
     }
 
+    #myButton {
+        display: none;
+    }
+
+    ul.menu, ul.menu.open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menu a:hover {
+        background-color:#a84949;
+    }
+
     main {
         grid-template-columns: 1fr auto;
     }
@@ -23,5 +36,6 @@
     main h2 {
         text-align: left;
         font-size: 2rem;
+        
     }
 }
