@@ -46,7 +46,7 @@
     }
 
     #current-events, #weather, #spotlights {
-        display: inline inline-block;
+        display: inline-block;
         padding: 25px 50px;
         background-color:  #e7f1eb;
         color:#063b28 ;
