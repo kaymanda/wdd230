@@ -14,20 +14,48 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://kaymanda.github.io/wdd230/">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-
+        <img id="tooele-pic" src="images/tooele.jpg" alt="Picture of Tooele">
+        <h1>Tooele Chamber of Commerce</h1> 
     </header>
     <nav>
         <button id="theButton"></button>
         <ul class="menu">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            
+            <li><a href="#current-events">Current Events</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#spotlights">Spotlight</a></li>
         </ul>
     </nav>
+    <main>
+        <section id="current-events">
+            <h2>Current Events</h2>
+            <p>placeholder</p>
+        </section>
+
+        <section id="weather">
+            <div class="weather-card">
+                <h2>Weather</h2>
+                <p>weather info/conditions</p>
+            </div>
+        </section>
+
+        <section id="spotlights">
+            <h2>Company Spotlights/Ads</h2>
+            <div id="spotlight">
+                <h3>Company Name</h3>
+                <p>Company description</p>
+                
+            </div>
+
+        </section>
+    </main>
     
 
 
@@ -36,5 +64,9 @@
         <p>&copy; <span id="currentYear"></span> | Amanda Smith | WDD230 Project</p>
         <p> Last Modified: <span id="lastModified"></span></p>
     </footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/getDates.js"></script>
+
 </body>
 </html>
