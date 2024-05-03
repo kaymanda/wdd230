@@ -32,9 +32,10 @@ header h1 {
 .cta a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #C9B1BD;
-    color: #063b28;
+    background-color:  #e7f1eb;
+        color:#063b28 ;
     text-decoration: none;
+    border-style: double;
     border-radius: 5px;
 }
 
