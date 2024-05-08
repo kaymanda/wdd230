@@ -29,7 +29,7 @@
 
 <body>
     <header>
-        <img id="pic-image" src="images/selfpic.jpg" alt="Amanda Smith Profile">
+        <img id="pic-image" src="images/selfpic.webp" alt="Amanda Smith Profile" loading="lazy" width="400" height="600">
         <h1>Amanda Smith</h1>
         <div id="mode">
             ☾
@@ -47,6 +47,16 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small-bt.webp" media="(max-width: 400px)">
+                <source srcset="images/hero-medium-bt.webp" media="(max-width: 960px)">
+                <img src="images/hero-bt-large.webp" alt="hero photos" loading="lazy" width="500" height="250">
+            </picture>
+            <div class="herolabel">
+                <p>Bountiful Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <section class="card activites">
             <h2>Learning Activites</h2>
@@ -72,6 +82,7 @@
 
         </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34301.53828570514!2d-112.30680611879647!3d40.54476402353695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1715189506660!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>&copy; <span id="currentYear"></span> | Amanda Smith | Utah - USA</p>
         <p> Last Modified: <span id="lastModified"></span></p>

@@ -31,9 +31,12 @@ header h1 {
 #pic-image {
     border-radius: 100%;
     width: 7rem;
+    height: auto;
     border: 5px solid #042f0a;
     
 }
+
+
 
 nav {
     background-color: #8e4343;
@@ -114,6 +117,40 @@ main {
     gap: 1rem;
 }
 
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px #042f0a;
+}
+.hero picture {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    background: radial-gradient(#f2f3f1, #042f0a);
+    border: 2px #042f0a;
+    border-style:outset;
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #f2f3f1;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "Josefin Slab", serif;
+}
+
 main h1 {
     color:#042f0a;
     font-size: 3rem;
@@ -151,6 +188,21 @@ main h2 {
     text-align: center;
     font-size: 1.5rem;
     color: rgb(50, 64, 52);
+}
+
+iframe {
+    animation: fade 15s;
+    
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
 }
 
 footer {
