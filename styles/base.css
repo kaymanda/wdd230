@@ -190,6 +190,21 @@ main h2 {
     color: rgb(50, 64, 52);
 }
 
+p {
+    margin: 1rem;
+}
+
+.label {
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
+}
+
+#visits {
+    color:#042f0a;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 iframe {
     animation: fade 15s;
     
