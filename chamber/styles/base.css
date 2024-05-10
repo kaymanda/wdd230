@@ -172,6 +172,10 @@ footer {
     
 }
 
+.label {
+    font-size: larger;
+}
+
 picture {
     width: 100%;
     height: auto;

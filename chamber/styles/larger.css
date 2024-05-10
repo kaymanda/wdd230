@@ -47,6 +47,10 @@
         padding: 20px;
     }
 
+    picture:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
     section {
         padding: 20px;
     }
@@ -88,4 +92,6 @@
     .spotlights .spotlight {
         margin-bottom: 50px;
     }
+
+    
 }
