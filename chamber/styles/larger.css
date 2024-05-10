@@ -32,6 +32,12 @@
         margin-top: 20px;
 
     }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
     
     nav ul li a {
         padding: 15px 30px;
@@ -43,6 +49,24 @@
 
     section {
         padding: 20px;
+    }
+
+    #theButton {
+        display: none;
+    }
+
+    ul.menu, ul.menu.open {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+    }
+
+    ul.menu a:hover {
+        background-color: #c6d3ed;
+    }
+
+    ul.menu li {
+        margin: auto;
     }
 
     #current-events, #weather, #spotlights {

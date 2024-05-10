@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poetsen+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Chamber of Commerce Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://kaymanda.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Chamber of Commerce - WDD230 Project</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tooele Chamber of Commerce</h1>
+        <div class="hero-img">
+
+            <img src="images/tooele.jpg" alt="Picture of Tooele">
+
+            <div class="cta">
+                <h2>Join Us Today!</h2>
+                <a href="#">Join Now</a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <button id="theButton"></button>
+        <ul class="menu">
+            <li><a href="#current-events">Current Events</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#spotlights">Spotlight</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="attractions">
+                    <h3>Attractions</h3>
+                    <p>7/2 - Historic Tooele Museum</p>
+                    <p>7/3 - Fireworks at the High School /p>
+                </div>
+                <div class="data">
+                    <h3>Population</h3>
+                    <p>As of 2020 there are about 35,742</p>
+                </div>
+                <div class="calendar">
+                    <h3>Calendar</h3>
+                    <p>Here is the Calendar</p>
+                </div>
+            </aside>
+
+            <div class="content">
+                <div class="image"></div>
+                <picture>
+                    <img src="images/tooele-mtns.webp" alt="Placeholder img" loading="lazy" width="500" height="300">
+                </picture>
+                <p>Our city is on the edge of the Oquirrh Mountain Range.</p>
+                <picture>
+                    <img src="images/midvalley-trail.webp" alt="Placeholder img" loading="lazy" width="500" height="300">
+                </picture>
+                <p>There are many walking trails in our city that businesses help mantain.</p>
+                <picture>
+                    <img src="images/city-fireworks.webp" alt="Placeholder img" loading="lazy" width="300" height="400">
+                </picture>
+                <p>Every year for the fourth of July our city does a firework show at the High School with the help of numberous businesses!</p>
+                <picture>
+                    <img src="images/trail-tooele.webp" alt="Placeholder img" loading="lazy" width="500" height="400">
+                </picture>
+                <p>This trail you can walk towards Grantsville the neighboring city.</p>
+                <picture>
+                    <img src="images/mtns-morning.webp" alt="Placeholder img" loading="lazy" width="500" height="300">
+                </picture>
+                <p>Every place in Tooele you can take amazing picture outside of businesses in the morning and night.</p>
+                <picture>
+                    <img src="images/settlement.webp" alt="Placeholder img" loading="lazy" width="500" height="300">
+                </picture>
+                <p>The city is so close to this beautiful place Settlement Reservoir and camping grounds!</p>
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Amanda Smith | WDD230 Project</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+        <p>Tooele, Ut contact us (435) 123-1234 </p>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/getDates.js"></script>
+
+</body>
+
+</html>
