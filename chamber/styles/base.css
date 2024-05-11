@@ -154,7 +154,7 @@ footer {
     border: 10px;
     border-style: double;
     border-radius: 15px;
-    background-color: #C9B1BD;
+    background-color: #e7f1eb;
     padding: 40px;
 }
 
@@ -164,6 +164,7 @@ footer {
     border: 10px;
     border-style: double;
     border-radius: 15px;
+    background-color: #e7f1eb;
 }
 
 .image {

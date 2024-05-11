@@ -14,6 +14,7 @@ if (numVisits !== 0) {
     visitsDisplay.textContent = `Welcome! Let us know if you have any questions.`;
 }
 
+
 document.querySelector('.today').textContent = Date.now();
 
 numVisits++;
