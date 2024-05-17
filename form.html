@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Amanda Smith's course assignment portal for WDD 230 - Web Frontend Development">
+    <meta name="author" content="Amanda Smith">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="Amanda Smith Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.bing.com/images/search?q=Tooele+City&form=IARSLK&first=1">
+    <meta property="og:url" content="https://kaymanda.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <title>Amanda Smith - WDD 230 - Web Frontend Development </title>
+</head>
+
+<body>
+    +
+    
+    <header>
+        <img id="pic-image" src="images/selfpic.webp" alt="Amanda Smith Profile" loading="lazy" width="400" height="600">
+        <h1>Amanda Smith</h1>
+        <div id="mode">
+            ☾
+        </div>
+    </header>
+
+    <nav>
+        <button id="myButton"></button>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://kaymanda.github.io/wdd230/chamber/">Chamber</a></li>
+            <li><a href="https://kaymanda.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Sign-Up Application</h1>
+        <form method="get" action="record.html" class="signup">
+            <fieldset>
+                <legend>Sign-Up</legend>
+                <label>Username*<input type="text" name="uname" id="username" required></label> 
+                <label>Password*<input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="password" placeholder="Must contain at least 8 characters" required></label> 
+                <label>Re-Enter Password*<input type="password" name="password" id="repassword" required></label>  
+                <label>Email*<input type="email" name="email" placeholder="someone@gmail.com" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label> 
+                
+                <div id="rangevalue"></div>
+                <label>Page Rating<input type="range" name="range" id="inputRange" min="1" max="10" value="0" step="1"></label> 
+            </fieldset>
+            
+            <input type="submit" value="Send Information" class="submitBut">
+
+    </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34301.53828570514!2d-112.30680611879647!3d40.54476402353695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1715189506660!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Amanda Smith | Utah - USA</p>
+        <p> Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/formvalidation.js"></script>
+</body>
+
+</html>

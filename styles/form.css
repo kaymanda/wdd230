@@ -1,0 +1,68 @@
+:root {
+    --border: 10px;
+    --max-width: 400px;
+    --color: #445ba9;
+}
+
+
+.signup fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;    
+}
+
+.signup legend {
+    color: var(--color);
+    padding: 0 .5rem;
+}
+
+.signup label {
+    display: block;
+    padding-top: 1rem;
+    color: rgb(193, 64, 64);
+    font-size: .9rem;
+}
+
+.signup div {
+    padding-top: 1rem;
+    color: var(--color);;
+    font-size: .9rem;
+}
+
+.signup input[type="text"],
+.signup input[type="password"],
+.signup input[type="email"]
+ {
+    background-color:#eee;
+    display:block;
+    border: solid 1px #999;
+    border-radius:var(--border);
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: var(--max-width);
+    appearance: none;
+}
+
+
+.signup input[type="submit"] {
+    border: ridge;
+    background-image: linear-gradient(rgb(197, 197, 227), rgb(106, 106, 137));
+    color: #fff;
+    border-radius: var(--border);
+    padding: .8rem;
+    width: 96%;
+    max-width: var(--max-width);
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    
+}
+
+.signup input:required {
+    border-left: solid 8px rgb(251, 136, 136);
+}
+
+.signup input:required:valid {
+    border-left: solid 8px rgb(127, 162, 127);
+}
