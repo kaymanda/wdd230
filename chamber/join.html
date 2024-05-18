@@ -42,27 +42,34 @@
         </ul>
     </nav>
     <main>
-        <section id="current-events">
-            <h2>Current Events</h2>
-            <p>placeholder</p>
-        </section>
+        <form method="get" action="thankyou.html" class="joinMem">
+            <fieldset>
+                <legend></legend>
+                <label>First Name* <input type="text" name="fname" id="firstname" required></label> 
+                <label>Last Name* <input type="text" name="fname" id="lastname" required></label>
+                <label>Title or Position<input type="text" name="title" id="title" pattern=""></label> 
+                <label>Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label> 
+                <label>Moblie Phone Number*<input type="tel" name="phone" id="phone" placeholder="1234554321" required></label>
+                <label>Business/Organization Name*<input type="text" name="busname" id="busname" required></label> 
+            </fieldset>
 
-        <section id="weather">
-            <div class="weather-card">
-                <h2>Weather</h2>
-                <p>weather info/conditions</p>
-            </div>
-        </section>
-
-        <section id="spotlights">
-            <h2>Company Spotlights/Ads</h2>
-            <div id="spotlight">
-                <h3>Company Name</h3>
-                <p>Company description</p>
+            <fieldset>
                 
-            </div>
 
-        </section>
+                <div>Select Memebership</div>
+                <label><input type="checkbox" name="np" value="yes">Non-Profit Memebership</label>
+                <label><input type="checkbox" name="bronze" value="yes">Bronze Memebership</label>
+                <label><input type="checkbox" name="silver" value="yes">Silver Memebership</label>
+                <label><input type="checkbox" name="gold" value="yes">Gold Memebership</label>
+            
+
+                
+            </fieldset>
+
+            <input type="submit" value="">
+
+        </form>
+
     </main>
     
 
