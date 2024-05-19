@@ -93,5 +93,13 @@
         margin-bottom: 50px;
     }
 
+
+    table {
+        margin-right: 50px;
+        background-color: #e7f1eb;
+        padding: 40px;
+    }
+    
+    
     
 }

@@ -183,3 +183,127 @@ picture {
     height: auto;
 
 }
+
+/* Join */
+
+.join {
+    font-family: "Poetsen One", sans-serif;
+    margin: 50px;
+    padding: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 15px;
+    background-color: #e7f1eb;
+}
+
+.join fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;    
+}
+
+.join legend {
+    color: #143428;
+    padding: 0 .5rem;
+}
+
+.join label {
+    display: block;
+    padding-top: 1rem;
+    color: #143428;
+    font-size: .9rem;
+}
+
+.join div {
+    font-size: .9rem;
+    color:#143428;
+    padding: 0 .5rem;
+}
+
+.join input[type="text"],
+.join input[type="tel"],
+.join input[type="email"], 
+.join input[type="date"],
+.join select,
+.join input[type="number"] {
+    background-color: #fcfbfb;
+    display: flex;
+    border: solid 1px #242b25;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #272d29;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.join input[type="radio"],
+.join input[type="checkbox"] {
+    margin-right: 6px;
+
+}
+
+.join textarea {
+    color: #233f36;
+}
+
+.join input[type="submit"] {
+    border: ridge;
+    background-image: linear-gradient(rgb(197, 197, 227), rgb(106, 106, 137));
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #537167;
+    
+}
+
+.join input:required {
+    border-left: solid 8px rgb(199, 170, 205);
+}
+
+.join input:required:valid {
+    border-left: solid 8px rgb(127, 162, 127);
+}
+
+
+table {
+    margin: 10px auto;
+    border: thin solid;
+    box-shadow: 0 0 10px;
+    border-collapse: collapse;
+    font-family: "Poetsen One", sans-serif;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: #242b25;
+    font-size: .85rem;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid;
+}
+
+
+th {
+    background-color:#fcfbfb;
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #fcfbfb;
+}
+
+tbody tr:nth-child(odd) {
+    background-color:rgb(241, 226, 244);
+}
