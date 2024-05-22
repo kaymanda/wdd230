@@ -1,0 +1,33 @@
+{
+    "familyName": "Smith Family",
+    "moveIn": "05/19/2016",
+    "numFam": 5,
+    "bishopVisit": true,
+    "famMembers": [
+        {
+           "name": "Blake",
+           "gender": "Male",
+           "birthDate": "04/03/1982" 
+        },
+        {
+            "name": "Amanda",
+            "gender": "Female",
+            "birthDate": "09/03/1986" 
+         },
+         {
+            "name": "Katie",
+            "gender": "Female",
+            "birthDate": "11/16/2007" 
+         },
+         {
+            "name": "Zayne",
+            "gender": "Male",
+            "birthDate": "03/11/2009" 
+         },
+         {
+            "name": "Alyzabeth",
+            "gender": "Female",
+            "birthDate": "06/06/2014" 
+         }
+    ] 
+}
