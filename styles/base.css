@@ -205,6 +205,27 @@ p {
     font-size: larger;
 }
 
+.card-info h2 {
+    font-size: 2.5rem;
+    color: #a84949 ;
+    background-color: #f2f3f1;
+    padding: 2rem;
+    margin-top: 0;
+}
+
+.card-info h3 {
+    color: #042f0a;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.weather p, figure{
+    color:  #042f0a;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+
 iframe {
     animation: fade 15s;
     
