@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poetsen+One&display=swap" rel="stylesheet">
+        
+        <link rel="icon" href="images/favicon.ico">
+    
+        <meta property="og:title" content="Chamber of Commerce Home Page">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="">
+        <meta property="og:url" content="https://kaymanda.github.io/wdd230/">
+        
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <title>Chamber of Commerce - WDD230 Project</title>
+    </head>
 <body>
     <header>
         <h1>Tooele Chamber of Commerce</h1> 
@@ -23,11 +38,18 @@
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="https://kaymanda.github.io/wdd230/chamber/discover.html">Discover</a></li>
-            <li><a href="#">Weather</a></li>
+            <li class="active"><a href="#">Directory</a></li>
             <li><a href="#">Spotlight</a></li>
         </ul>
     </nav>
     <main>
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <section>
+            <article id="cards"></article>
+        </section>
 
     </main>
 

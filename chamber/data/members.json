@@ -1,132 +1,132 @@
 {
     "members": [
         {
-            "name": "",
+            "name": "Liddiard Home Furnishings",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "2502 North 400 East",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-882-0964",
+            "urlweb": "https://www.liddiardhf.com/",
+            "memberLevel": "Silver",
+            "image": "images/liddiards.webp"
         },
         {
-            "name": "",
+            "name": "Transcript Bulletin Publishing",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "58 North Main Street",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-882-0050",
+            "urlweb": "https://www.tooeleonline.com/",
+            "memberLevel": "Gold",
+            "image": "images/transcript-logo.png"
         },
         {
-            "name": "",
+            "name": "Tooele Arts Festival",
             "address": [
                 {
                     "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-882-8282",
+            "urlweb": "https://tooeleartsfestival.org/",
+            "memberLevel": "Bronze",
+            "image": "images/artfestival_logo.png"
         },
         {
-            "name": "",
+            "name": "DropZone U",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "227 North Main St",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-843-9900",
+            "urlweb": "https://www.dropzoneutah.com/",
+            "memberLevel": "Silver",
+            "image": "images/dropU.webp"
         },
         {
-            "name": "",
+            "name": "Tooele County School District",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "92 S. Lodestone Way",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-833-1900",
+            "urlweb": "https://www.tooeleschools.org/",
+            "memberLevel": "Non-Profit",
+            "image": "images/TCSDlogo.png"
         },
         {
-            "name": "",
+            "name": "Royal Creek Ranches",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "1801 W Highway 199",
+                    "city": "Rush Valley",
+                    "state": "UT",
+                    "zipcode": "84069"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-841-1345",
+            "urlweb": "https://www.royalcreekranches.com/",
+            "memberLevel": "Bronze",
+            "image": "images/creek-ranch.jpg"
         },
         {
-            "name": "",
+            "name": "Escape Studio",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "212 North Main St",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-830-2112",
+            "urlweb": "https://www.escapestudiotooele.com/",
+            "memberLevel": "Bronze",
+            "image": "images/escapeLogo.webp"
         },
         {
-            "name": "",
+            "name": "GTM Builders",
             "address": [
                 {
-                    "street": "",
-                    "city": "",
-                    "state": "",
-                    "zipcode": ""
+                    "street": "1676 Progress Way",
+                    "city": "Tooele",
+                    "state": "Utah",
+                    "zipcode": "84074"
                 }
                 ],
             
-            "phoneNumber": "",
-            "url": "",
-            "memberLevel": "",
-            "image": ""
+            "phoneNumber": "435-849-5409",
+            "urlweb": "https://gtmbuilders.com/",
+            "memberLevel": "Gold",
+            "image": "images/gtm.svg"
         }
 
     ]
