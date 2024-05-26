@@ -34,48 +34,68 @@ setTimeStamp();
 
 const url = "https://kaymanda.github.io/wdd230/chamber/data/members.json";
 
-const cards = document.querySelector("#cards");
+const memberholder = document.querySelector("#members-holder");
 
 async function getMembers() {
-    const response = await fetch(url);
-    const data = await response.json();
+    try {
+        const response = await fetch(url)
+        const data = response.json();
+        displayMembers(data.members);
+    } catch (error) {
+        console.error("There is an error:", error);
+    }
+}
 
-    displayMembers(data.members); 
-};
-
+getMembers();
 
 const displayMembers = (members) => {
-
     members.forEach((member) => {
-        let card = document.createElement("section");
-        let busiName = document.createElement("h3");
+        let card = document.createElement("div");
+        card.classList.add("member-card");
+        
+        let busiName = document.createElement("h2");
+        busiName.textContent = member.name;
+
         let busiAddress = document.createElement("p");
-        let busiPhoneNumber = document.createElement("p");
+        busiAddress.textContent =`Address: ${member.address}`;
+
+        let busiPhone = document.createElement("p");
+        busiPhone.textContent =`Phone: ${member.phoneNumber}`;
+
         let busiUrl = document.createElement("a");
-        let busiMemberLevel = document.createElement("h4");
-        let image = document.createElement("img");
+        busiUrl.textContent = `Website: ${member.urlweb}`;
 
-        busiName.textContent =`${member.name}`;
-        busiAddress.textContent =`${member.address}`;
-        busiPhoneNumber.textContent =`${member.phoneNumber}`;
-        busiUrl.textContent =`${member.urlweb}`;
-        busiMemberLevel.textContent =`${member.memberLevel}`;
+        let membership = document.createElement("p");
+        membership.textContent = `Memebership Level: ${member.memberLevel}`;
 
-        image.setAttribute("src", member.image);
-        image.setAttribute("alt", `${member.name}`);
-        image.setAttribute("loading", "lazy");
-        image.setAttribute("width", "125");
-        image.setAttribute("height", "50");
+        let logo = document.createElement("img");
+        logo.setAttribute("src", member.imageurl);
+        logo.setAttribute("alt", `${member.name}`);
+        logo.setAttribute("loading", "lazy");
+        logo.setAttribute("width", "170");
+        logo.setAttribute("height", "50");
 
         card.appendChild(busiName);
         card.appendChild(busiAddress);
-        card.appendChild(busiPhoneNumber);
+        card.appendChild(busiPhone);
+        card.appendChild(membership);
+        card.appendChild(logo);
         card.appendChild(busiUrl);
-        card.appendChild(busiMemberLevel);
 
-        cards.appendChild(card);
+        memberholder.appendChild(card);
 
     });
-};
+}
 
-getMembers();
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+
+function toggleView(view) {
+    membersContainer.classList.toggle("grid", view === "grid");
+    membersContainer.classList.toggle("list", view === "list");
+}
+
+gridButton.addEventListener("click", () => toggleView("grid"));
+listButton.addEventListener("click", () => toggleView("list"));
+
+toggleView("grid");

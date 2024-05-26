@@ -310,58 +310,38 @@ tbody tr:nth-child(odd) {
 
 /*Directory*/
 
-#cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+.directory-title h2 {
+    text-align: center;
+    color: #143428;
+    
 }
 
-#cards section {
-    border: 2px #233f36;
-    border-style: double;
-    padding: 10px;
+.member-card img {
+    border-radius:5px ;
+}
+
+.member-card {
+    border: 1px #063b28;
+
+}
+
+.member-card img:hover {
+    transform: scale(1.1);
+}
+
+.member-card h2{
     text-align: center;
 }
 
-.card img {
-    border: 1px #063b28;
-    box-shadow: 0 0 10px #242b25;
-}
-
-.card h4 {
+.member-card p {
     font-family: "Poetsen One", sans-serif;
 }
 
-.list {
-    display: flex;
-    flex-direction: column;
-}
-
-.list section {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    margin: 0;
-    padding: 0.25rem;
-}
-
-.list section h2,h4 {
-    font-size: 1rem;
-    font-family: "Poetsen One", sans-serif;
-}
-
-section p {
-    font-weight: 600;
-    font-size: smaller;
-}
-
-section a {
-    font-family: "Poetsen One", sans-serif;
-    font-size: 0.05rem;
-    color:#537167;
-
-}
-
-section img {
-    display: grid;
-    grid-template-columns: 4fr 4fr;
+#members-holder {
+    margin: 50px;
+    padding: 50px;
+    border: 10px;
+    border-style: double;
+    border-radius: 15px;
+    background-color: #e7f1eb;
 }
