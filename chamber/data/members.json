@@ -2,15 +2,7 @@
     "members": [
         {
             "name": "Liddiard Home Furnishings",
-            "address": [
-                {
-                    "street": "2502 North 400 East",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "2502 North 400 East, Tooele, Utah 84074",
             "phoneNumber": "435-882-0964",
             "urlweb": "https://www.liddiardhf.com/",
             "memberLevel": "Silver",
@@ -18,15 +10,7 @@
         },
         {
             "name": "Transcript Bulletin Publishing",
-            "address": [
-                {
-                    "street": "58 North Main Street",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "58 North Main Street, Tooele Utah 84074",
             "phoneNumber": "435-882-0050",
             "urlweb": "https://www.tooeleonline.com/",
             "memberLevel": "Gold",
@@ -34,15 +18,7 @@
         },
         {
             "name": "Tooele Arts Festival",
-            "address": [
-                {
-                    "street": "",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address":"Tooele Utah 84074",
             "phoneNumber": "435-882-8282",
             "urlweb": "https://tooeleartsfestival.org/",
             "memberLevel": "Bronze",
@@ -50,15 +26,7 @@
         },
         {
             "name": "DropZone U",
-            "address": [
-                {
-                    "street": "227 North Main St",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "227 North Main St Tooele, Utah 84074", 
             "phoneNumber": "435-843-9900",
             "urlweb": "https://www.dropzoneutah.com/",
             "memberLevel": "Silver",
@@ -66,15 +34,7 @@
         },
         {
             "name": "Tooele County School District",
-            "address": [
-                {
-                    "street": "92 S. Lodestone Way",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "92 S. Lodestone Way Tooele, Utah 84074",
             "phoneNumber": "435-833-1900",
             "urlweb": "https://www.tooeleschools.org/",
             "memberLevel": "Non-Profit",
@@ -82,15 +42,7 @@
         },
         {
             "name": "Royal Creek Ranches",
-            "address": [
-                {
-                    "street": "1801 W Highway 199",
-                    "city": "Rush Valley",
-                    "state": "UT",
-                    "zipcode": "84069"
-                }
-                ],
-            
+            "address": "1801 W Highway 199 Rush Valley, Utah 84069",
             "phoneNumber": "435-841-1345",
             "urlweb": "https://www.royalcreekranches.com/",
             "memberLevel": "Bronze",
@@ -98,15 +50,7 @@
         },
         {
             "name": "Escape Studio",
-            "address": [
-                {
-                    "street": "212 North Main St",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "212 North Main St Tooele, Utah 84074",
             "phoneNumber": "435-830-2112",
             "urlweb": "https://www.escapestudiotooele.com/",
             "memberLevel": "Bronze",
@@ -114,15 +58,7 @@
         },
         {
             "name": "GTM Builders",
-            "address": [
-                {
-                    "street": "1676 Progress Way",
-                    "city": "Tooele",
-                    "state": "Utah",
-                    "zipcode": "84074"
-                }
-                ],
-            
+            "address": "1676 Progress Way Tooele, Utah 84074",
             "phoneNumber": "435-849-5409",
             "urlweb": "https://gtmbuilders.com/",
             "memberLevel": "Gold",

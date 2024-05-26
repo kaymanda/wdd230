@@ -30,9 +30,10 @@ function setTimeStamp() {
 }
 setTimeStamp();
 
-/*Memeber/Directory*/
+/*Member/Directory*/
 
-const url = "data/members.json";
+const url = "https://kaymanda.github.io/wdd230/chamber/data/members.json";
+
 const cards = document.querySelector("#cards");
 
 async function getMembersData() {
@@ -43,6 +44,7 @@ async function getMembersData() {
 
 
 const displayMembers = (members) => {
+
     members.forEach((member) => {
         let card = document.createElement("section");
         let name = document.createElement("h2");
@@ -52,17 +54,17 @@ const displayMembers = (members) => {
         let memberLevel = document.createElement("h4");
         let image = document.createElement("img");
 
-        image.setAttribute("src", member.image);
-        image.setAttribute("alt", `${member.name}`);
-        image.setAttribute("loading", "lazy");
-        image.setAttribute("width", "125");
-        image.setAttribute("height", "50");
-
         name.textContent =`${member.name}`;
         address.textContent =`${member.address}`;
         phoneNumber.textContent =`${member.phoneNumber}`;
         urlweb.textContent =`${member.urlweb}`;
         memberLevel.textContent =`${member.memberLevel}`;
+
+        image.setAttribute("src", member.image);
+        image.setAttribute("alt", `${member.name}`);
+        image.setAttribute("loading", "lazy");
+        image.setAttribute("width", "125");
+        image.setAttribute("height", "50");
 
         card.appendChild(image);
         card.appendChild(name);
@@ -70,28 +72,10 @@ const displayMembers = (members) => {
         card.appendChild(phoneNumber);
         card.appendChild(urlweb);
         card.appendChild(memberLevel);
+
         cards.appendChild(card);
 
     });
 };
 
 getMembersData();
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}

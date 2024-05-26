@@ -307,3 +307,23 @@ tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background-color:rgb(241, 226, 244);
 }
+
+/*Directory*/
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#cards section {
+    border: 2px #233f36;
+    border-style: double;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    border: 1px #063b28;
+    box-shadow: 0 0 10px #242b25;
+}
