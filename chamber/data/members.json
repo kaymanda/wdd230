@@ -4,7 +4,7 @@
             "name": "Liddiard Home Furnishings",
             "address": "2502 North 400 East, Tooele, Utah 84074",
             "phoneNumber": "435-882-0964",
-            "urlweb": "https://www.liddiardhf.com/",
+            "website": "https://www.liddiardhf.com/",
             "memberLevel": "Silver",
             "image": "images/liddiards.webp"
         },
@@ -12,7 +12,7 @@
             "name": "Transcript Bulletin Publishing",
             "address": "58 North Main Street, Tooele Utah 84074",
             "phoneNumber": "435-882-0050",
-            "urlweb": "https://www.tooeleonline.com/",
+            "website": "https://www.tooeleonline.com/",
             "memberLevel": "Gold",
             "image": "images/transcript-logo.png"
         },
@@ -20,7 +20,7 @@
             "name": "Tooele Arts Festival",
             "address":"Tooele Utah 84074",
             "phoneNumber": "435-882-8282",
-            "urlweb": "https://tooeleartsfestival.org/",
+            "website": "https://tooeleartsfestival.org/",
             "memberLevel": "Bronze",
             "image": "images/artfestival_logo.png"
         },
@@ -28,7 +28,7 @@
             "name": "DropZone U",
             "address": "227 North Main St Tooele, Utah 84074", 
             "phoneNumber": "435-843-9900",
-            "urlweb": "https://www.dropzoneutah.com/",
+            "website": "https://www.dropzoneutah.com/",
             "memberLevel": "Silver",
             "image": "images/dropU.webp"
         },
@@ -36,7 +36,7 @@
             "name": "Tooele County School District",
             "address": "92 S. Lodestone Way Tooele, Utah 84074",
             "phoneNumber": "435-833-1900",
-            "urlweb": "https://www.tooeleschools.org/",
+            "website": "https://www.tooeleschools.org/",
             "memberLevel": "Non-Profit",
             "image": "images/TCSDlogo.png"
         },
@@ -44,7 +44,7 @@
             "name": "Royal Creek Ranches",
             "address": "1801 W Highway 199 Rush Valley, Utah 84069",
             "phoneNumber": "435-841-1345",
-            "urlweb": "https://www.royalcreekranches.com/",
+            "website": "https://www.royalcreekranches.com/",
             "memberLevel": "Bronze",
             "image": "images/creek-ranch.jpg"
         },
@@ -52,7 +52,7 @@
             "name": "Escape Studio",
             "address": "212 North Main St Tooele, Utah 84074",
             "phoneNumber": "435-830-2112",
-            "urlweb": "https://www.escapestudiotooele.com/",
+            "website": "https://www.escapestudiotooele.com/",
             "memberLevel": "Bronze",
             "image": "images/escapeLogo.webp"
         },
@@ -60,7 +60,7 @@
             "name": "GTM Builders",
             "address": "1676 Progress Way Tooele, Utah 84074",
             "phoneNumber": "435-849-5409",
-            "urlweb": "https://gtmbuilders.com/",
+            "website": "https://gtmbuilders.com/",
             "memberLevel": "Gold",
             "image": ""
         }
