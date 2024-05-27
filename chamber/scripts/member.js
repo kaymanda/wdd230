@@ -54,15 +54,3 @@ const displayMembers = (members) => {
     });
 }
 
-const gridButton = document.querySelector("#grid");
-const listButton = document.querySelector("#list");
-
-function toggleView(view) {
-    membersHolder.classList.toggle("grid", view === "grid");
-    membersHolder.classList.toggle("list", view === "list");
-}
-
-gridButton.addEventListener("click", () => toggleView("grid"));
-listButton.addEventListener("click", () => toggleView("list"));
-
-toggleView("grid");
