@@ -3,27 +3,39 @@ const baseURL = "https://kaymanda.github.io/wdd230/";
 const linksURL = "https://kaymanda.github.io/wdd230/data/links.json";
 
 async function getLinks() {
-    const response = await fetch(linksURL);
-    const data = await response.json;
-    displayLinks(data);
+    try {
+        const response = await fetch(linksURL);
+        if (response.ok) {
+        const data = await response.json();
+        console.log(data);
+        displayLinks(data);
+        } else {
+            throw Error(await response.text());
+        }
+    }catch (error) {
+        console.log(error)
+    }
 }
 
+getLinks();
+
+const ul =document.querySelector("ul");
+
 const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
+    weeks.weeks.forEach((week) => {
         const li = document.createElement("li");
         li.textContent = `${week.week} :`;
 
-        links.forEach((link) => {
+        week.links.forEach((link) => {
             const a = document.createElement("a");
             a.setAttribute("href",link.url);
-            a.textContent = `${link.title}`;
+            a.textContent = link.title;
 
             li.appendChild(a);
-            URL.appendChild(li);
+            ul.appendChild(li);
         
         });
 
     });
 };
 
-getLinks();
