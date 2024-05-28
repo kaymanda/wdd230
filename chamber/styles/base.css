@@ -317,16 +317,17 @@ tbody tr:nth-child(odd) {
 }
 
 .member-card img {
-    border-radius:5px ;
+    border-radius: 10px ;
 }
 
 .member-card {
     border: 1px #063b28;
+    border: #233f36;
+    border-style: ridge;
+    margin: 25px;
+    border-radius: 15px;
+    padding: 20px;
 
-}
-
-.member-card img:hover {
-    transform: scale(1.1);
 }
 
 .member-card h2{
@@ -335,6 +336,7 @@ tbody tr:nth-child(odd) {
 
 .member-card p {
     font-family: "Poetsen One", sans-serif;
+    margin: 5px 5px;
 }
 
 #members-holder {
@@ -344,4 +346,16 @@ tbody tr:nth-child(odd) {
     border-style: double;
     border-radius: 15px;
     background-color: #e7f1eb;
+    text-align: center;
+}
+
+#members-holder img {
+    margin: 50px;
+    padding: 10px;
+    
+}
+
+#members-holder p {
+    margin: 25px 25px;
+    border: 10px;
 }
