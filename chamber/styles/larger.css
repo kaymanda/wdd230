@@ -84,6 +84,11 @@
         margin: 50px;
     }
 
+    #weather h2 {
+        text-align: center;
+    }
+
+
     .weather-card {
         display: flex;
         justify-content: right;

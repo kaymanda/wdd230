@@ -105,7 +105,7 @@ section {
     margin-bottom: 10px;
 }
 
-#current-events, #weather, #spotlights{
+#current-events, #spotlights{
     display: inline-block;
     padding: 20px 40px;
     background-color: #e7f1eb;
@@ -113,7 +113,27 @@ section {
     border-style:ridge;
     text-decoration: none;
     border-radius: 10px;
+    text-align: center;
 }
+
+.weather {
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #e7f1eb;
+    color: #063b28;
+    border-style:ridge;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.weather-card p, figure{
+    color:  #042f0a;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
 
 footer {
     background-color: #c6d3ed;
