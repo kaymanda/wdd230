@@ -128,10 +128,18 @@ section {
     text-align: center;
     
 }
-.weather-card p, figure{
+
+.weather-card{
     color:  #042f0a;
     font-size: 1.75rem;
     text-align: center;
+}
+
+figure {
+    border: #042f0a;
+    border-radius: 5px;
+    background-color: #a4b8b1;
+    margin: 10px 10px;
 }
 
 
@@ -176,6 +184,16 @@ footer {
     border-radius: 15px;
     background-color: #e7f1eb;
     padding: 40px;
+}
+
+#last-visit, #days-visited  {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color:#143428;
+    
 }
 
 .content {

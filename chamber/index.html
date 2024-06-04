@@ -57,14 +57,19 @@
 
         <section class="weather">
             <h2>Weather</h2>
-            <h3>Tooele, USA</h3>
             <div class="weather-card">
-                <p><p>The Current Temperature<span id="current-temp"></span></p>
+                <p> <span id="current-temp"></span></p>
                 <figure>
-                    <img id="weather-icon" src="" alt="">
+                    <img id="weather-icon" src="url" alt="">
                     <figcaption></figcaption>
-                </figure></p>
+                </figure>
+
+                <p>3 days Forecast</p>
+                <div id="dayforecast">
+
+                </div>
             </div>
+
         </section>
 
         <section id="spotlights">
@@ -76,10 +81,8 @@
             </div>
 
         </section>
+        <div id="last-visit"></div>
     </main>
-    
-
-
 
     <footer>
         <p>&copy; <span id="currentYear"></span> | Amanda Smith | WDD230 Project</p>
@@ -89,6 +92,7 @@
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/weather.js"></script>
 
 </body>
 </html>

@@ -73,31 +73,52 @@
         margin: auto;
     }
 
-    #current-events, #weather, #spotlights {
-        display: inline-block;
-        padding: 25px 50px;
+    #current-events, #spotlights {
+        display: grid;
+        padding: 25px 25px;
+        background-color:  #e7f1eb;
+        color:#063b28 ;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        margin: auto;
+    }
+
+    .weather {
+        display: grid;
+        padding: 25px 25px;
         background-color:  #e7f1eb;
         color:#063b28 ;
         text-decoration: none;
         border-radius: 10px;
         font-size: 1.5rem;
         margin: 50px;
+      
     }
 
-    #weather h2 {
+    .weather h2, h3 {
         text-align: center;
+        margin: auto;
     }
 
 
     .weather-card {
-        display: flex;
-        justify-content: right;
+        text-align: center;
     }
 
     .spotlights .spotlight {
         margin-bottom: 50px;
     }
 
+    #last-visit, #days-visited {
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        color:#143428;
+        
+    }
 
     table {
         margin-right: 50px;
